@@ -1,7 +1,8 @@
 main {
 	display: flex;
 	justify-content: center;
-	max-width: 100%;
+	max-width: 80vw;
+	margin: auto;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: center;
@@ -41,7 +42,9 @@ body {
 	flex-flow: column wrap;
 	justify-content: center;
 }
-
+h1 {
+	text-align: center;
+}
 header {
 	padding: 1rem;
 	display: flex;
@@ -72,6 +75,10 @@ header {
 #circularflow img {
 	margin: auto;
 	max-width: 25rem;
+}
+img {
+	width: 80%;
+	margin: auto;
 }
 #FOREXChange img {
 	margin: auto;
