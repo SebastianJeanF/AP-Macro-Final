@@ -85,10 +85,7 @@ img {
 	max-width: 15rem;
 }
 @media screen and (max-width: 768px) {
-	img {
-		max-width: 10rem;
-	}
 	section {
-		max-width: 15rem;
+		max-width: 90%;
 	}
 }
